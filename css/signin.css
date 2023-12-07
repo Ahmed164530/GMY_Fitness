@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+
+    background-image: url(../images/10.jpg); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    font-family: 'Trebuchet MS', Arial;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s{
+    text-align: center;
+}
+.sign {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login-container {
+    background-color: rgba(90, 82, 82, 0.7);
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    border-radius: 35px;
+}
+input[type="text"], input[type="password"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: none;
+    background-color: rgba(22, 20, 20, 0.6);
+    border-radius:35px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+    color :rgb(0, 0, 0);
+    transition: 0.7s;
+}
+
+.g{
+    color: rgb(0, 0, 0);
+}
+
+.g:hover{
+    transition: 0.7s;
+    color: rgb(235, 235, 235);
+}
+.navbar {
+    background-color: rgba(22, 20, 20, 0.6);
+    width: 100vw;
+    position: fixed; 
+    top: 0;
+    
+}
+
+
+.navbar p{
+    padding-left: 1030px;
+}
+
+.navbar .gmy{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .gmyy{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.navbar>div:last-child{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar>div:last-child::after{
+    margin-top: 7px;
+}
+
+.navbar .btn:last-child{
+    margin: 0 10px;
+}
+
+.btn-danger {
+    background-color: rgb(18, 4, 95) ;
+    border-color:rgb(18, 4, 95) ;
+}

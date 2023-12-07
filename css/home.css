@@ -1,0 +1,92 @@
+* {
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url(../images/photo6.jpeg);
+    background-size: 100%;
+    font-family: Arial, sans-serif;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: rgba(22, 20, 20, 0.6);
+    width: 100vw;
+    position: fixed; 
+    top: 0;
+    
+}
+
+.navbar p{
+    padding-left: 1030px;
+}
+
+.navbar .gmy{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .gmyy{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.navbar>div:last-child{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar>div:last-child::after{
+    margin-top: 7px;
+}
+
+.navbar .btn:last-child{
+    margin: 0 10px;
+}
+
+.btn-danger {
+    background-color: rgb(18, 4, 95) ;
+    border-color:rgb(18, 4, 95) ;
+}
+
+.container-of-the-container{ 
+    width: 100vw;  
+}
+
+.container {
+    min-height: 100vh;
+    width: 90vw;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.disc{
+    background-color: rgba(22, 20, 20, 0.6);
+    border-radius: 30px;
+    padding: 50px;
+    margin-left: 70px;
+}
+
+.disc a{
+    color:  yellow;
+}
+
+.disc a:hover{
+    color: rgb(19, 19, 124);
+    transition: 0.5s;
+}
+
+.disc h1{
+    margin-bottom: 25px;
+    color: yellow;
+}
+
+.disc h2,h4{
+    margin-top: 20px;
+    color: white;
+}

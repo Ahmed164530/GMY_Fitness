@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+
+}
+ 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+video {
+    height: 340px;
+    position: relative;
+    bottom: 40px;
+    border-radius:35px ;
+    
+}
+
+body {
+
+    background-color: #212529;
+    font-family: 'Trebuchet MS', Arial;
+    font-size: 20px;
+    color: white;
+}
+.navbar {
+    background-color: rgba(22, 20, 20, 0.6);
+    width: 100vw;
+    position: fixed; 
+    top: 0;
+    
+}
+
+.navbar p{
+    padding-left: 1030px;
+}
+
+.navbar .gmy{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .gmyy{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.navbar>div:last-child{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar>div:last-child::after{
+    margin-top: 7px;
+}
+
+.navbar .btn:last-child{
+    margin: 0 10px;
+}
+
+.btn-danger {
+    background-color: rgb(18, 4, 95) ;
+    border-color:rgb(18, 4, 95) ;
+}
+.container p:nth-child(2) {
+    text-align: center;
+    padding: 0px;
+    margin: 0px 0 20px 0;
+}
+
+h1 {
+    padding: 30px 0 0;
+    text-align: center;
+
+
+}
+
+.col-lg-6:nth-child(1) p:nth-child(2) {
+    margin-top: 30px;
+
+}
+.col-lg-6 .w{
+    position: relative;
+    top: 50px;
+}
+
+.row {
+    margin-bottom: 172px;
+    height: max-content;
+}
+.z{
+    background-color: yellow;
+    border-radius: 35px;
+    cursor: pointer;
+    border: none;
+}
+.z:hover{
+    background-color: white;
+    transition: 0.8s;
+}
+
+.container img {
+    height: 350px;
+    border-radius: 35px;
+}
+
+p {
+    text-align: left !important;
+}
+
+.gmy {
+    width: 50px;
+}

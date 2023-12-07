@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../images/feed.jpg);  
+    background-size: 85%;
+    background-repeat: repeat;
+    background-position: center;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.navbar {
+    background-color: rgba(22, 20, 20, 0.6);
+    width: 100vw;
+    position: fixed; 
+    top: 0;
+    
+}
+
+.navbar p{
+    padding-left: 1030px;
+}
+
+.navbar .gmy{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .gmyy{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.navbar>div:last-child{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar>div:last-child::after{
+    margin-top: 7px;
+}
+
+.navbar .btn:last-child{
+    margin: 0 10px;
+}
+
+.btn-danger {
+    background-color: rgb(18, 4, 95) ;
+    border-color:rgb(18, 4, 95) ;
+}
+
+.feedback-form {
+    margin-top: 200px;
+    background-color: rgba(90, 82, 82, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+
+}
+
+
+h1{
+    text-align: center;
+    position: relative;
+    color: white;
+    left: 90px;
+}
+.feedback-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.feedback-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background-color:rgba(22, 20, 20, 0.6);
+    border-radius: 15px;
+    color: white;
+}
+.feedback-form input[type="submit"] {
+    width: 150px;
+    padding: 10px;
+    
+    background-color: rgb(18, 4, 95) ;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+}
+.feedback-form input[type="submit"]:hover {
+    background-color: rgb(153, 29, 29);
+    transition: 0.5s;
+}
+
+.thank-you {
+    display: none;
+     margin-top: 50px; 
+    padding: 20px 30px;
+    background-color: rgba(90, 82, 82, 0.7);
+    color: white;
+    border: solid;
+    border-radius: 30px;
+}

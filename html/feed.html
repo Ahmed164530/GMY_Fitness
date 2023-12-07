@@ -1,0 +1,44 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" ? />
+  <title> Feedback </title>
+  <meta name="description" content="This is all about us" />
+  <link rel="stylesheet" href="../css/project_framework.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/feed.css">
+  <link rel="shortcut icon" href="../images/icon.jpeg" type="image/x-icon">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <form class="container-fluid justify-content-start">
+            <a href="../html/index.html"><button type="button" class="btn btn-danger">Home</button></a>
+        </form>
+    </nav>
+    <form class="feedback-form">
+     
+        <label for="feedback"><h1>Feedback</h1></label>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" required placeholder="Enter Your Feedback"></textarea>
+        <input type="submit" value="Send">
+    </form>
+
+    <div class="thank-you">
+        <h2>Thank you for your feedback!</h2>
+        <h3>We will be intersted for it.</h3>
+    </div>
+
+    <script>
+        document.querySelector('.feedback-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            document.querySelector('.feedback-form').style.display = 'none';
+            document.querySelector('.thank-you').style.display = 'block';
+        });
+    </script>
+    
+</body>
+
+</html>
