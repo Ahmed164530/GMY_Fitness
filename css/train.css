@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../images/wp.webp);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-clip: padding-box;
+
+
+}
+
+.head {
+    color: white;
+    text-align: center;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards {
+    box-shadow: 0 4px 8px 0 rgba(46, 42, 42, 0.2);
+    transition: 0.3s;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 50px;
+}
+.cards:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.cards img {
+    width: 170px;
+    height: 150px;
+    border: #000000;
+    border-style: solid;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.cards img:hover {
+    transform: scale(2);
+    border-radius: 20px;
+    transition-duration: 0.5s;
+
+}
+
+
+.item {
+    width: 260px;
+    margin: 2%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #9d9d9d;
+    border-radius: 10px;
+    background-color: rgba(91, 90, 90, 0.6);
+    overflow-x: visible;
+    width: 300px;
+}
+.bn39 {
+    background-image: linear-gradient(135deg, #940e0e, #0b0c42);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 4px;
+    position: relative;
+    text-decoration: none;
+    width: 7em;
+    z-index: 2;
+    margin-left: 55px;
+    border-radius: 35px;
+  }
+  
+  .bn39:hover {
+    color: #fff;
+    border-radius: 35px;
+  }
+  
+  .bn39 .bn39span {
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background 0.5s ease;
+    width: 100%;
+    border-radius: 35px;
+  }
+  
+  .bn39:hover .bn39span {
+    background: transparent;
+  }
+
+.item h3 {
+    color: aliceblue;
+    margin-top: 10px;
+}
+.container {
+    max-width: 1200px;
+    padding: 16px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.70);
+    background-attachment: fixed;
+    background-size: 100%;
+    margin-top: 100px;
+}
+
+.navbar {
+    background-color: rgba(22, 20, 20, 0.6);
+    width: 100vw;
+    position: fixed; 
+    top: 0;
+    
+}
+
+.navbar p{
+    padding-left: 1090px;
+}
+
+.navbar .gmy{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .gmyy{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.navbar>div:last-child{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar>div:last-child::after{
+    margin-top: 7px;
+}
+
+.navbar .btn:last-child{
+    margin: 0 10px;
+}
+
+.btn-danger {
+    background-color: rgb(18, 4, 95) ;
+    border-color:rgb(18, 4, 95) ;
+}
+
+#searchInput {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#searchInput:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 5px #66afe9;
+}

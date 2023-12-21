@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../webfonts/all.css"> 
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/project_framework.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/train.css">
+    <link rel="shortcut icon" href="../images/icon.jpeg" type="image/x-icon">
+    <title>Exercises</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <form class="container-fluid justify-content-start">
+            <a href="../html/index.html"><button type="button" class="btn btn-danger">Home</button></a>
+            <p class="a"><a href="../html/index.html" class="gmy"><h3>Younan </h3></a>
+                <a href="../html/index.html" class="gmyy"><h5>Gym</h5> </a></p>
+        </form>
+    </nav>
+    <div class="container">
+        <h1 class="head">Exercises</h1>
+        <h3 class="head">Search For Exercises</h3>
+        <input type="text" id="searchInput" placeholder="Search for a Exercises..." onfocus="this.placeholder = ''"
+            onblur="this.placeholder = 'Search for a Exercises...'" oninput="searchFilms()">
+    </div>
+
+    <script>
+         function searchFilms() {
+         const searchValue = document.getElementById("searchInput").value.trim().toLowerCase();
+         const filmCards = document.querySelectorAll('.item');
+
+         filmCards.forEach(card => {
+        const title = card.querySelector('.title').textContent.toLowerCase();
+
+        if (title.includes(searchValue)) {
+            card.style.display = ""; // Show the card if it matches the search
+        } else {
+            card.style.display = "none"; // Hide the card if it doesn't match the search
+        }
+         });}
+    </script>
+
+    <div class="cards">
+        <div class="content">
+            <div class="item">
+                <img src="../images/cchest.jpg">
+                <h3 class="title">Chest</h3>
+                <a class="bn39" href="/"><span class="bn39span">Go</span></a>
+            </div>
+            <div class="item">
+                <img src="../images/13flex_ronnie_pulldown_970.jpg ">
+                <h3 class="title">Back</h3>
+                <a class="bn39" href="/"><span class="bn39span">Go</span></a>
+            </div>
+            <div class="item">
+                <img src="../images/shoulder.jpg ">
+                <h3 class="title">Shoulder</h3>
+                <a class="bn39" href="/"><span class="bn39span">Go</span></a>
+            </div>
+            <div class="item">
+                <img src="../images/arm.jpeg ">
+                <h3 class="title">Arms</h3>
+                <a class="bn39" href="/"><span class="bn39span">Go</span></a>
+            </div>
+            <div class="item">
+                <img src="../images/leg.jpg">
+                <h3 class="title">Legs</h3>
+                <a class="bn39" href="/"><span class="bn39span">Go</span></a>
+            </div>
+            <div class="item">
+                <img src="../images/Ramon-Dino-Mr-Olympia.jpg ">
+                <h3 class="title">Push</h3>
+                <a class="bn39" href="/"><span class="bn39span">Go</span></a>
+            </div>
+            <div class="item">
+                <img src="../images/abb.webp">
+                <h3 class="title">Pull</h3>
+                <a class="bn39" href="/"><span class="bn39span">Go</span></a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

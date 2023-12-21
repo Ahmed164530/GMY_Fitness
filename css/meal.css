@@ -2,46 +2,7 @@
     box-sizing: border-box;
 
 }
-.bn632-hover {
-  width: 160px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #fff;
-  cursor: pointer;
-  margin: 20px;
-  height: 55px;
-  text-align:center;
-  border: none;
-  background-size: 300% 100%;
-  border-radius: 50px;
-  moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-}
-
-.bn632-hover:hover {
-  background-position: 100% 0;
-  moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-}
-
-.bn632-hover:focus {
-  outline: none;
-}
-
-.bn632-hover.bn23 {
-  background-image: linear-gradient(
-    to right,
-    #009245,
-    #fcee21,
-    #00a8c5,
-    #d9e021
-  );
-  box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
-}
+ 
 a {
     color: white;
     text-decoration: none;
@@ -70,10 +31,10 @@ video {
 
 body {
 
-    background-color: #212529;
+    background-color: #fcfcfc;
     font-family: 'Trebuchet MS', Arial;
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .navbar {
     background-color: rgba(22, 20, 20, 0.6);

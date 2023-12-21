@@ -27,11 +27,24 @@ body {
     flex-direction: column;
 
 }
+.navbar p{
+    padding-left: 1000px;
+}
 
+.navbar .gmy{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .gmyy{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
 .login-container {
     position: relative;
     top: 60px;
-    background-color: rgba(171, 171, 172, 0.7);
+    background-color: rgba(22, 20, 20, 0.6);
+    border: #e0e0e0 solid;
     /* background-color: rgba(90, 82, 82, 0.7); */
     margin-top: 100px;
     padding: 20px;

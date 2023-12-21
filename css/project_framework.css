@@ -52,7 +52,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #ffc107;
+    background: #660808;
     /* darker color when hovered */
     border-radius: 6px;
     /* roundness of the handle */
@@ -60,6 +60,6 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #ffd350;
+    background: #000000;
     /* darker color when hovered */
 }
